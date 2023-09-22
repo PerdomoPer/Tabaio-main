@@ -34,7 +34,7 @@ export default function Main() {
         {
             id:4,
             titulo:'Sonhos',
-            sinopse:'Sonho em se formar em engenharia mecanica em uma faculdade federal',
+            sinopse:'Sonho em me formar em engenharia mecanica em uma faculdade federal',
             imagem:'/eu.jpg'
         },
     ]
