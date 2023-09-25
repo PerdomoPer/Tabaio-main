@@ -22,7 +22,7 @@ export default function Main() {
         {
             id:2,
             titulo:'Experiencia Profissional',
-            sinopse:'Experiente em assistente de escritorio',
+            sinopse:'Experiente em assistência de escritorio',
             imagem:'/logo.png'
         },
         {
