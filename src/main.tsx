@@ -16,8 +16,8 @@ const router = createBrowserRouter([
     path: "/",
     element:<>
               <Header/>
-              <Footer/>
               <Main/>
+              <Footer/>
             </>,
   },
   {
