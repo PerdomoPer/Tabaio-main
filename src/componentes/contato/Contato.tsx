@@ -1,5 +1,4 @@
 import './Contato.css'
-import Link from './../linknav/LinkNav'
 
 export function Contato(){
   return(
