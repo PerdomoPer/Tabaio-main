@@ -1,9 +1,25 @@
 import './Contato.css'
+import LinkNav from './../linknav/LinkNav'
 
 export function Contato(){
   return(
     <>
-    <h1>Salve</h1>
+    <nav>
+        <ul>
+          <li>
+            <LinkNav url="/" texto='Home'/>
+          </li>
+          <li>
+            <LinkNav url="/noticias" texto='Noticias'/>
+          </li>
+          <li>
+            <LinkNav url="/sobre" texto='Sobre'/>
+          </li>
+          <li className='ultimo'>
+            <LinkNav url="/contato" texto='Contato'/>
+          </li>
+        </ul>
+      </nav>
     </>
   )
 }
