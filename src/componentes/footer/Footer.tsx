@@ -1,5 +1,5 @@
 import './Footer.css'
-import Link from './../link/Link'
+import Link from './../linknav/LinkNav'
 import imagem from ".././../assets/pp.png"
 import imagem1 from ".././../assets/instagram_icon_logo.png"
 import imagem2 from ".././../assets/facebook.png"
@@ -19,32 +19,32 @@ export function Footer(){
         <nav>
           <ul>
                 <li> <h1>Historico Escolar</h1>
-              <Link texto='Flores'/>
-              <Link texto='IFMS'/>
+              <Link url="#" texto='Flores'/>
+              <Link url="#" texto='IFMS'/>
                 </li>
             </ul>
         </nav>
         <nav>
             <ul>
                 <li> <h1>Conquistas</h1>
-              <Link texto='Menções'/>
-              <Link texto='Medalhas'/>
+              <Link url="#" texto='Menções'/>
+              <Link url="#" texto='Medalhas'/>
                 </li>
             </ul>
         </nav>
         <nav>
             <ul>
                 <li> <h1>Contato</h1>
-              <Link texto='Telefone'/>
-              <Link texto='Email'/>
+              <Link url="#" texto='Telefone'/>
+              <Link url="#" texto='Email'/>
                 </li>
             </ul>
         </nav>
         <nav>
             <ul> <h1>Termos e Condições</h1>
                 <li>
-              <Link texto='Declaração de Privacidade'/>
-              <Link texto='Cookie Preferences'/>
+              <Link url="#" texto='Declaração de Privacidade'/>
+              <Link url="#" texto='Cookie Preferences'/>
               <h6>©2023 Perdomo</h6>
                 </li>
             </ul>
