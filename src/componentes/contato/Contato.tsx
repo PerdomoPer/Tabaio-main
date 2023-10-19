@@ -10,7 +10,7 @@ export function Contato(){
             <LinkNav url="/" texto='Home'/>
           </li>
           <li>
-            <LinkNav url="/noticias" texto='Noticias'/>
+            <LinkNav url="/noticiasa" texto='Noticias'/>
           </li>
           <li>
             <LinkNav url="/sobre" texto='Sobre'/>
